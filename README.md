@@ -1,7 +1,7 @@
 # Driving License Management System (DLMS)
 
 DLMS is an online Driving License Management System designed for the use of Department of Motor Traffic, Sri Lanka. The preliminary intend of DLMS is to automate the process of 
-issuing drivers’ license , License Renewal and to facilitate the flow of information within the department.
+issuing drivers’ license , license renewal and to facilitate the flow of information within the department.
 
 This system can make the basic operations of issuing driving license and renewing license more efficient, provide fast response to users and store and retrieve information accurately. 
 DLMS will reduce the difficulties faced on the manual existing system, with minimum error. The user-friendly aspect of the system will guide its users to complete their tasks.
