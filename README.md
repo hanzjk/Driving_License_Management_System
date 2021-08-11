@@ -14,3 +14,4 @@ Some of the objectives of the system are:
 - Ease basic functions relates to the process of issuing driver’s license and license renewal
 - Manage Driving Schools
 
+Check out the demonstration of the system : https://drive.google.com/file/d/1vZAPjF2MdCMskGsfQDt9PMGVqOdMipy9/view?usp=sharing
