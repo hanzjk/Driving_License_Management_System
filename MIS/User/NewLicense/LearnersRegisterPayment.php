@@ -10,7 +10,7 @@ $id = $_SESSION["userid"];
 $email=$_SESSION['email'];
 $name=$_SESSION['name'];
     
-\Stripe\Stripe::setApiKey('sk_test_51I2wZ8EG7KGMl4QwyFek7A5Tdi5HmY1zhvfDZXF3tOg5nmEthyYa0TiQqhU36ElpmdQYHdrvRC4ywfzOJZQEWi1p00U56ikRwn');
+\Stripe\Stripe::setApiKey('key');
 $POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
 $token = $POST['stripeToken'];
 date_default_timezone_set('Asia/Colombo');
