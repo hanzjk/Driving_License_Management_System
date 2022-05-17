@@ -21,8 +21,8 @@ use PHPMailer\PHPMailer\PHPMailer;
   $mail->isSMTP();
   $mail->Host="smtp.gmail.com";
   $mail->SMTPAuth=true;
-  $mail->Username = "dlmslk2021@gmail.com";
-  $mail->Password = "DLMS2021";
+  $mail->Username = "";
+  $mail->Password = "";
   $mail->Port = 465;
 
   $mail->SMTPSecure = "ssl"; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
