@@ -183,13 +183,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $mail->isSMTP();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
-                    $mail->Username = "dlmslk2021@gmail.com";
-                    $mail->Password = "DLMS2021";
+                    $mail->Username = "";
+                    $mail->Password = "";
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
                     $mail->Port = 587;
 
                     //Recipients
-                    $mail->setFrom("dlmslk2021@gmail.com", "DLMS");
+                    $mail->setFrom("", "");
                     $mail->addAddress($admin_email);     // Add a recipient
 
                     // Content
